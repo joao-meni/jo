@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    background: #2B2C2C;
+}
+.maxw{
+max-width: 1170px;
+margin-left: auto;
+margin-right: auto ;
+}
+
+.flex{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.container{
+padding-left: 134px;
+padding-right: 134px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+color: #9F9F9F;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+}
+
+nav{
+    display: flex;
+    gap : 42px
+}
+
+nav >a{
+    color: #FFF;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 357.143% */
+letter-spacing: 0.168px;
+}
+
+.btn1{
+ color: #FEB633;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 175% */
+border-radius: 4px;
+border: 2px solid #FEB633;
+display: inline-block;
+margin-top: 45px;
+padding: 15px 70px 15px 70px;
+}
+
+.img1{
+    margin-top: 37px;
+    margin-left: 95px;
+}
+
+.hero-l1{
+    margin-top: 131px;
+    margin-bottom: 150px;
+}
+
+.hero-l1>p{
+  color: #CCC;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 152.174% */
+}
+
+.hero-l1>h1{
+color: #FFF;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 90px; /* 150% */
+letter-spacing: 0.72px;
+}
+
+.hero-l1>h6{
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 214.286% */
+letter-spacing: 1.05px;
+}
+
+span{
+    color: #FEB633;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 90px;
+letter-spacing: 0.72px;
+}
+
+.hero-l2 h1{
+color: #CCC;
+text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px; /* 120% */
+}
+
+.hero-l2{
+ background: url('assets/img/hero-shapes.png');
+ 
+}
+
+.txt2{
+    height: auto;
+    width: 600px;
+}
